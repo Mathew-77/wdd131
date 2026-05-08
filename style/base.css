@@ -312,7 +312,7 @@ list-style: none;
 
 
 footer{
-    background-color: aqua;
+     background: linear-gradient(135deg, #2c5aa0,#fff);
     color: #000;
     text-align: center;
 
