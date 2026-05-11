@@ -7,6 +7,7 @@
     <meta name="author" content="MATHEW BENARD">
     <title>wdd131 dynamic web fundamentals</title>
     <link rel="stylesheet" href="style/base.css">
+    <script src="script/getdate.js"defer></script>
    
 </head>
 <body>
@@ -109,22 +110,18 @@
 
     </main> 
 </body>
-  <script src="script/getdate.js"defer></script> 
-    <footer>
-            <div class="modified">
-            <p>
-            &copy;
-            <span id="current year">
-            <script>
-                document.getElementById("current year").innerHTML = new Date().getFullYear();
-                document.getElementById("lastmodified").innerHTML = document.lastModified;   
-            </script>
-                    <p class="gap">Mathew BENARD</p>
-                    <p class="gap">Abuja</p>
-                </span>
-            </p>
-            </div>
-    </footer>
+    <footer id="lastmodied" class="footer-content">
+        <p id="world-full"></p>
+        <p>
+        &copy;
+        <span id="current year">
+          
+            <p class="gap">Mathew BENARD</p>
+            <p class="gap">Abuja</p>
+        </span>
+        </p>
+    </div>
+</footer>
 
 
  

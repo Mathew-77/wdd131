@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Urbanist&display=swap');
 
+body {
+	margin: 1rem;
+}
+p {
+	margin: 0.25rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem 0.75rem;
+	background-color: #eee;
+}
+
+.highlight {
+	color: navy;
+	font-weight: 700;
+	font-family: hebrew;
+}
 
 
 #student-name{
@@ -27,13 +42,6 @@
     text-align: center;
     justify-items: center;
 
-}
-
-body{
-    background-image: url(Img11.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 .project{
     display: flex;
@@ -266,74 +274,24 @@ list-style: none;
     display: flex;
     justify-content: center;
 }
-.slider{
-    width: 700px;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-}
 
-.slides{
-    display: flex;
-    width: cal 700*5px;
-    animation: slideshow 20s linear 0.6s infinite normal forwards;
-}
-
-.slides img{
-    width: 700px;
-    height: 300px;
-}
-
-@keyframes slideshow{
-    0%{transform: translateX(0);}
-    20%{transform: translateX(0);}
-    25%{transform: translateX(-700px);}
-    45%{transform: translateX(-700px);}
-    50%{transform: translateX(-1400px);}
-    70%{transform: translateX(-1400px);}
-    75%{transform: translateX(-2100px);}
-    95%{transform: translateX(-2100px);}
-    100%{transform: translateX(0px);}
-
-}
-
-.gallary-photo{
-    display: flex;
-    overflow: hidden;
-    margin-top: 10px;
-}
-.gallary-photo img{
-    width: 100px;
-    height: 100px;
-    gap: 20px;
-    border-radius: 20px;
-
-}
 
 
 footer{
-     background: linear-gradient(135deg, #2c5aa0,#fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+footer{
+    background: linear-gradient(135deg, #2c5aa0,#fff);
     color: #000;
     text-align: center;
 
 }
-.modified{
-    display: flex;
-    justify-content: center;
-}
-.modified #modified-1{
-    display: flex;
-    justify-content: center;
-}
-.modified #modified-2{
-display: inline-flex;
-}
-.modified #modified-3{
-    display: flex;
-}
-.modified #modified-4{
-    display: flex;
-}
+
 
 
 
