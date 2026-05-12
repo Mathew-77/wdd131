@@ -161,11 +161,9 @@ header{
     text-align: center;
 }
 
-nav ul a #link{ *
-    display: flex;
+nav ul a #link{ 
     text-decoration: none;
     color:white;
-    margin: 0, 15px;
     font-weight: bold;
     justify-content: space-between;
 
