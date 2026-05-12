@@ -57,6 +57,10 @@ p {
     list-style: none;
     line-height: 1.76;
 }
+#profile-pic{
+    height: 100px;
+    width: 200px;
+}
 
 .logo-img{
     display: flex;
@@ -218,17 +222,14 @@ transform: translate(-5px);
     clear: both;
     margin-top: 2rem;
 }
-.profile-pic{
+
+#profile-pic img{
+    height: 100px;
+    width: 200px;
     border: 1px solid black;
-    border-radius: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-radius: 25px ;
 }
-.flag-images{
-    border: 1px solid black;
-    border-radius: 25px;
-    margin-top: 10px;
-}
+
 
 
 .card{
